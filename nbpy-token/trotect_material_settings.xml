@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Trotec Laser GmbH.-->
+<MaterialDatabase Version="22" GUID="{44c77570-73d0-4354-8007-958bbe02192d}">
+  <DatabaseProperties>
+    <ContentVersion>23</ContentVersion>
+    <LaserSystem>Unkown</LaserSystem>
+    <Description>Trotec Material Database.</Description>
+  </DatabaseProperties>
+  <Machine>
+    <MachineTypeID>0</MachineTypeID>
+    <Name>Speedy300-120W</Name>
+    <FileName>Speedy300-120W.xml</FileName>
+    <Description></Description>
+    <LaserType>0</LaserType>
+    <FileType>0</FileType>
+    <IsParameterOrderChangeable>true</IsParameterOrderChangeable>
+    <IsParameterInfoVisible>false</IsParameterInfoVisible>
+    <MachineLaserSources>
+      <MachineLaserSource SourceID="0">
+        <Name>CO2</Name>
+        <Description></Description>
+        <Power>120</Power>
+        <LaserSourceType>1</LaserSourceType>
+      </MachineLaserSource>
+    </MachineLaserSources>
+  </Machine>
+  <Materials>
+    <Material Name="Ply  3.0mm" SystemValue="false" GUID="{1d62579d-4510-4997-8a11-269ba3daccf3}">
+      <MaterialData>
+        <Description>Poplar Ply 3mm</Description>
+        <Thickness>3.00000</Thickness>
+        <IsParameterOrderChangeable>true</IsParameterOrderChangeable>
+        <IsParameterInfoVisible>false</IsParameterInfoVisible>
+      </MaterialData>
+      <MaterialParameter Index="0" ColorIndex="0" Name="0" Color="0" Enabled="true">
+        <Info></Info>
+        <ProcessKind Description="Engrave CO2">1</ProcessKind>
+        <Power>95.00000</Power>
+        <Frequency>1000.00000</Frequency>
+        <FrequencyUnit Unit="PPI">1</FrequencyUnit>
+        <AutoFrequency>false</AutoFrequency>
+        <MarkSpeed>60.00000</MarkSpeed>
+        <Passes>1</Passes>
+        <AirAssist Description="On">1</AirAssist>
+        <ZOffset>0.00000</ZOffset>
+        <Correction>0.00000</Correction>
+        <Links>false</Links>
+        <IntelligentPathControl Description="Off">0</IntelligentPathControl>
+        <HighQuality>false</HighQuality>
+        <RasterCorrection>false</RasterCorrection>
+        <JcCut_Visible>false</JcCut_Visible>
+        <JcCut_LaserDiameter>0.10000</JcCut_LaserDiameter>
+        <JcCut_Orientation Description="Deactivated">0</JcCut_Orientation>
+        <JcCut_OnlyClosedPaths>false</JcCut_OnlyClosedPaths>
+        <PathPlanningSetIndex>0</PathPlanningSetIndex>
+        <EngravingDirection Description="Top down">0</EngravingDirection>
+      </MaterialParameter>
+      <MaterialParameter Index="1" ColorIndex="4" Name="4" Color="16776960" Enabled="false">
+        <Info></Info>
+        <ProcessKind Description="Cut CO2">2</ProcessKind>
+        <Power>13.50000</Power>
+        <Frequency>1000.00000</Frequency>
+        <FrequencyUnit Unit="Hz">2</FrequencyUnit>
+        <AutoFrequency>false</AutoFrequency>
+        <MarkSpeed>10.00000</MarkSpeed>
+        <Passes>1</Passes>
+        <AirAssist Description="On">1</AirAssist>
+        <ZOffset>0.00000</ZOffset>
+        <Correction>10.00000</Correction>
+        <Links>false</Links>
+        <IntelligentPathControl Description="Off">0</IntelligentPathControl>
+        <HighQuality>false</HighQuality>
+        <RasterCorrection>false</RasterCorrection>
+        <JcCut_Visible>false</JcCut_Visible>
+        <JcCut_LaserDiameter>0.10000</JcCut_LaserDiameter>
+        <JcCut_Orientation Description="Deactivated">0</JcCut_Orientation>
+        <JcCut_OnlyClosedPaths>false</JcCut_OnlyClosedPaths>
+        <PathPlanningSetIndex>0</PathPlanningSetIndex>
+        <EngravingDirection Description="Top down">0</EngravingDirection>
+      </MaterialParameter>
+      <MaterialParameter Index="2" ColorIndex="2" Name="2" Color="16711680" Enabled="false">
+        <Info></Info>
+        <ProcessKind Description="Cut CO2">2</ProcessKind>
+        <Power>30.00000</Power>
+        <Frequency>1000.00000</Frequency>
+        <FrequencyUnit Unit="Hz">2</FrequencyUnit>
+        <AutoFrequency>false</AutoFrequency>
+        <MarkSpeed>10.00000</MarkSpeed>
+        <Passes>1</Passes>
+        <AirAssist Description="On">1</AirAssist>
+        <ZOffset>0.00000</ZOffset>
+        <Correction>10.00000</Correction>
+        <Links>false</Links>
+        <IntelligentPathControl Description="Off">0</IntelligentPathControl>
+        <HighQuality>false</HighQuality>
+        <RasterCorrection>false</RasterCorrection>
+        <JcCut_Visible>false</JcCut_Visible>
+        <JcCut_LaserDiameter>0.10000</JcCut_LaserDiameter>
+        <JcCut_Orientation Description="Deactivated">0</JcCut_Orientation>
+        <JcCut_OnlyClosedPaths>false</JcCut_OnlyClosedPaths>
+        <PathPlanningSetIndex>0</PathPlanningSetIndex>
+        <EngravingDirection Description="Top down">0</EngravingDirection>
+      </MaterialParameter>
+      <MaterialParameter Index="3" ColorIndex="5" Name="5" Color="65280" Enabled="false">
+        <Info></Info>
+        <ProcessKind Description="Cut CO2">2</ProcessKind>
+        <Power>50.00000</Power>
+        <Frequency>1000.00000</Frequency>
+        <FrequencyUnit Unit="Hz">2</FrequencyUnit>
+        <AutoFrequency>false</AutoFrequency>
+        <MarkSpeed>5.00000</MarkSpeed>
+        <Passes>1</Passes>
+        <AirAssist Description="On">1</AirAssist>
+        <ZOffset>0.00000</ZOffset>
+        <Correction>10.00000</Correction>
+        <Links>false</Links>
+        <IntelligentPathControl Description="Off">0</IntelligentPathControl>
+        <HighQuality>false</HighQuality>
+        <RasterCorrection>false</RasterCorrection>
+        <JcCut_Visible>false</JcCut_Visible>
+        <JcCut_LaserDiameter>0.10000</JcCut_LaserDiameter>
+        <JcCut_Orientation Description="Deactivated">0</JcCut_Orientation>
+        <JcCut_OnlyClosedPaths>false</JcCut_OnlyClosedPaths>
+        <PathPlanningSetIndex>0</PathPlanningSetIndex>
+        <EngravingDirection Description="Top down">0</EngravingDirection>
+      </MaterialParameter>
+      <MaterialParameter Index="4" ColorIndex="13" Name="13" Color="16711935" Enabled="false">
+        <Info></Info>
+        <ProcessKind Description="Cut CO2">2</ProcessKind>
+        <Power>100.00000</Power>
+        <Frequency>2000.00000</Frequency>
+        <FrequencyUnit Unit="Hz">2</FrequencyUnit>
+        <AutoFrequency>false</AutoFrequency>
+        <MarkSpeed>0.90000</MarkSpeed>
+        <Passes>1</Passes>
+        <AirAssist Description="On">1</AirAssist>
+        <ZOffset>0.00000</ZOffset>
+        <Correction>10.00000</Correction>
+        <Links>false</Links>
+        <IntelligentPathControl Description="Off">0</IntelligentPathControl>
+        <HighQuality>false</HighQuality>
+        <RasterCorrection>false</RasterCorrection>
+        <JcCut_Visible>false</JcCut_Visible>
+        <JcCut_LaserDiameter>0.10000</JcCut_LaserDiameter>
+        <JcCut_Orientation Description="Deactivated">0</JcCut_Orientation>
+        <JcCut_OnlyClosedPaths>false</JcCut_OnlyClosedPaths>
+        <PathPlanningSetIndex>0</PathPlanningSetIndex>
+        <EngravingDirection Description="Top down">0</EngravingDirection>
+      </MaterialParameter>
+      <MaterialParameter Index="5" ColorIndex="1" Name="1" Color="255" Enabled="true">
+        <Info></Info>
+        <ProcessKind Description="Cut CO2">2</ProcessKind>
+        <Power>100.00000</Power>
+        <Frequency>2000.00000</Frequency>
+        <FrequencyUnit Unit="Hz">2</FrequencyUnit>
+        <AutoFrequency>false</AutoFrequency>
+        <MarkSpeed>0.90000</MarkSpeed>
+        <Passes>1</Passes>
+        <AirAssist Description="On">1</AirAssist>
+        <ZOffset>0.00000</ZOffset>
+        <Correction>10.00000</Correction>
+        <Links>false</Links>
+        <IntelligentPathControl Description="Off">0</IntelligentPathControl>
+        <HighQuality>false</HighQuality>
+        <RasterCorrection>false</RasterCorrection>
+        <JcCut_Visible>false</JcCut_Visible>
+        <JcCut_LaserDiameter>0.10000</JcCut_LaserDiameter>
+        <JcCut_Orientation Description="Deactivated">0</JcCut_Orientation>
+        <JcCut_OnlyClosedPaths>false</JcCut_OnlyClosedPaths>
+        <PathPlanningSetIndex>0</PathPlanningSetIndex>
+        <EngravingDirection Description="Top down">0</EngravingDirection>
+      </MaterialParameter>
+      <MaterialParameter Index="6" ColorIndex="12" Name="12" Color="13369497" Enabled="false">
+        <Info></Info>
+        <ProcessKind Description="Skip">3</ProcessKind>
+        <Power>55.00000</Power>
+        <Frequency>1000.00000</Frequency>
+        <FrequencyUnit Unit="---">3</FrequencyUnit>
+        <AutoFrequency>false</AutoFrequency>
+        <MarkSpeed>1.00000</MarkSpeed>
+        <Passes>1</Passes>
+        <AirAssist Description="Off">0</AirAssist>
+        <ZOffset>0.00000</ZOffset>
+        <Correction>10.00000</Correction>
+        <Links>false</Links>
+        <IntelligentPathControl Description="Off">0</IntelligentPathControl>
+        <HighQuality>false</HighQuality>
+        <RasterCorrection>false</RasterCorrection>
+        <JcCut_Visible>false</JcCut_Visible>
+        <JcCut_LaserDiameter>0.10000</JcCut_LaserDiameter>
+        <JcCut_Orientation Description="Deactivated">0</JcCut_Orientation>
+        <JcCut_OnlyClosedPaths>false</JcCut_OnlyClosedPaths>
+        <PathPlanningSetIndex>0</PathPlanningSetIndex>
+        <EngravingDirection Description="Top down">0</EngravingDirection>
+      </MaterialParameter>
+      <MaterialParameter Index="7" ColorIndex="3" Name="3" Color="10053171" Enabled="false">
+        <Info></Info>
+        <ProcessKind Description="Skip">3</ProcessKind>
+        <Power>60.00000</Power>
+        <Frequency>500.00000</Frequency>
+        <FrequencyUnit Unit="---">3</FrequencyUnit>
+        <AutoFrequency>false</AutoFrequency>
+        <MarkSpeed>1.00000</MarkSpeed>
+        <Passes>1</Passes>
+        <AirAssist Description="Off">0</AirAssist>
+        <ZOffset>0.00000</ZOffset>
+        <Correction>10.00000</Correction>
+        <Links>false</Links>
+        <IntelligentPathControl Description="Off">0</IntelligentPathControl>
+        <HighQuality>false</HighQuality>
+        <RasterCorrection>false</RasterCorrection>
+        <JcCut_Visible>false</JcCut_Visible>
+        <JcCut_LaserDiameter>0.10000</JcCut_LaserDiameter>
+        <JcCut_Orientation Description="Deactivated">0</JcCut_Orientation>
+        <JcCut_OnlyClosedPaths>false</JcCut_OnlyClosedPaths>
+        <PathPlanningSetIndex>0</PathPlanningSetIndex>
+        <EngravingDirection Description="Top down">0</EngravingDirection>
+      </MaterialParameter>
+      <MaterialParameter Index="8" ColorIndex="6" Name="6" Color="3381504" Enabled="false">
+        <Info></Info>
+        <ProcessKind Description="Skip">3</ProcessKind>
+        <Power>65.00000</Power>
+        <Frequency>1000.00000</Frequency>
+        <FrequencyUnit Unit="---">3</FrequencyUnit>
+        <AutoFrequency>false</AutoFrequency>
+        <MarkSpeed>1.00000</MarkSpeed>
+        <Passes>1</Passes>
+        <AirAssist Description="On">1</AirAssist>
+        <ZOffset>0.00000</ZOffset>
+        <Correction>10.00000</Correction>
+        <Links>false</Links>
+        <IntelligentPathControl Description="Off">0</IntelligentPathControl>
+        <HighQuality>false</HighQuality>
+        <RasterCorrection>false</RasterCorrection>
+        <JcCut_Visible>false</JcCut_Visible>
+        <JcCut_LaserDiameter>0.10000</JcCut_LaserDiameter>
+        <JcCut_Orientation Description="Deactivated">0</JcCut_Orientation>
+        <JcCut_OnlyClosedPaths>false</JcCut_OnlyClosedPaths>
+        <PathPlanningSetIndex>0</PathPlanningSetIndex>
+        <EngravingDirection Description="Top down">0</EngravingDirection>
+      </MaterialParameter>
+      <MaterialParameter Index="9" ColorIndex="7" Name="7" Color="3368448" Enabled="false">
+        <Info></Info>
+        <ProcessKind Description="Skip">3</ProcessKind>
+        <Power>70.00000</Power>
+        <Frequency>500.00000</Frequency>
+        <FrequencyUnit Unit="---">3</FrequencyUnit>
+        <AutoFrequency>false</AutoFrequency>
+        <MarkSpeed>1.00000</MarkSpeed>
+        <Passes>1</Passes>
+        <AirAssist Description="Off">0</AirAssist>
+        <ZOffset>0.00000</ZOffset>
+        <Correction>10.00000</Correction>
+        <Links>false</Links>
+        <IntelligentPathControl Description="Off">0</IntelligentPathControl>
+        <HighQuality>false</HighQuality>
+        <RasterCorrection>false</RasterCorrection>
+        <JcCut_Visible>false</JcCut_Visible>
+        <JcCut_LaserDiameter>0.10000</JcCut_LaserDiameter>
+        <JcCut_Orientation Description="Deactivated">0</JcCut_Orientation>
+        <JcCut_OnlyClosedPaths>false</JcCut_OnlyClosedPaths>
+        <PathPlanningSetIndex>0</PathPlanningSetIndex>
+        <EngravingDirection Description="Top down">0</EngravingDirection>
+      </MaterialParameter>
+      <MaterialParameter Index="10" ColorIndex="8" Name="8" Color="3381657" Enabled="false">
+        <Info></Info>
+        <ProcessKind Description="Skip">3</ProcessKind>
+        <Power>75.00000</Power>
+        <Frequency>500.00000</Frequency>
+        <FrequencyUnit Unit="---">3</FrequencyUnit>
+        <AutoFrequency>false</AutoFrequency>
+        <MarkSpeed>1.00000</MarkSpeed>
+        <Passes>1</Passes>
+        <AirAssist Description="Off">0</AirAssist>
+        <ZOffset>0.00000</ZOffset>
+        <Correction>10.00000</Correction>
+        <Links>false</Links>
+        <IntelligentPathControl Description="Off">0</IntelligentPathControl>
+        <HighQuality>false</HighQuality>
+        <RasterCorrection>false</RasterCorrection>
+        <JcCut_Visible>false</JcCut_Visible>
+        <JcCut_LaserDiameter>0.10000</JcCut_LaserDiameter>
+        <JcCut_Orientation Description="Deactivated">0</JcCut_Orientation>
+        <JcCut_OnlyClosedPaths>false</JcCut_OnlyClosedPaths>
+        <PathPlanningSetIndex>0</PathPlanningSetIndex>
+        <EngravingDirection Description="Top down">0</EngravingDirection>
+      </MaterialParameter>
+      <MaterialParameter Index="11" ColorIndex="9" Name="9" Color="3368601" Enabled="false">
+        <Info></Info>
+        <ProcessKind Description="Skip">3</ProcessKind>
+        <Power>80.00000</Power>
+        <Frequency>500.00000</Frequency>
+        <FrequencyUnit Unit="---">3</FrequencyUnit>
+        <AutoFrequency>false</AutoFrequency>
+        <MarkSpeed>1.00000</MarkSpeed>
+        <Passes>1</Passes>
+        <AirAssist Description="Off">0</AirAssist>
+        <ZOffset>0.00000</ZOffset>
+        <Correction>10.00000</Correction>
+        <Links>false</Links>
+        <IntelligentPathControl Description="Off">0</IntelligentPathControl>
+        <HighQuality>false</HighQuality>
+        <RasterCorrection>false</RasterCorrection>
+        <JcCut_Visible>false</JcCut_Visible>
+        <JcCut_LaserDiameter>0.10000</JcCut_LaserDiameter>
+        <JcCut_Orientation Description="Deactivated">0</JcCut_Orientation>
+        <JcCut_OnlyClosedPaths>false</JcCut_OnlyClosedPaths>
+        <PathPlanningSetIndex>0</PathPlanningSetIndex>
+        <EngravingDirection Description="Top down">0</EngravingDirection>
+      </MaterialParameter>
+      <MaterialParameter Index="12" ColorIndex="10" Name="10" Color="13158" Enabled="false">
+        <Info></Info>
+        <ProcessKind Description="Skip">3</ProcessKind>
+        <Power>85.00000</Power>
+        <Frequency>500.00000</Frequency>
+        <FrequencyUnit Unit="---">3</FrequencyUnit>
+        <AutoFrequency>false</AutoFrequency>
+        <MarkSpeed>1.00000</MarkSpeed>
+        <Passes>1</Passes>
+        <AirAssist Description="Off">0</AirAssist>
+        <ZOffset>0.00000</ZOffset>
+        <Correction>10.00000</Correction>
+        <Links>false</Links>
+        <IntelligentPathControl Description="Off">0</IntelligentPathControl>
+        <HighQuality>false</HighQuality>
+        <RasterCorrection>false</RasterCorrection>
+        <JcCut_Visible>false</JcCut_Visible>
+        <JcCut_LaserDiameter>0.10000</JcCut_LaserDiameter>
+        <JcCut_Orientation Description="Deactivated">0</JcCut_Orientation>
+        <JcCut_OnlyClosedPaths>false</JcCut_OnlyClosedPaths>
+        <PathPlanningSetIndex>0</PathPlanningSetIndex>
+        <EngravingDirection Description="Top down">0</EngravingDirection>
+      </MaterialParameter>
+      <MaterialParameter Index="13" ColorIndex="11" Name="11" Color="6684774" Enabled="false">
+        <Info></Info>
+        <ProcessKind Description="Skip">3</ProcessKind>
+        <Power>90.00000</Power>
+        <Frequency>500.00000</Frequency>
+        <FrequencyUnit Unit="---">3</FrequencyUnit>
+        <AutoFrequency>false</AutoFrequency>
+        <MarkSpeed>1.00000</MarkSpeed>
+        <Passes>1</Passes>
+        <AirAssist Description="Off">0</AirAssist>
+        <ZOffset>0.00000</ZOffset>
+        <Correction>10.00000</Correction>
+        <Links>false</Links>
+        <IntelligentPathControl Description="Off">0</IntelligentPathControl>
+        <HighQuality>false</HighQuality>
+        <RasterCorrection>false</RasterCorrection>
+        <JcCut_Visible>false</JcCut_Visible>
+        <JcCut_LaserDiameter>0.10000</JcCut_LaserDiameter>
+        <JcCut_Orientation Description="Deactivated">0</JcCut_Orientation>
+        <JcCut_OnlyClosedPaths>false</JcCut_OnlyClosedPaths>
+        <PathPlanningSetIndex>0</PathPlanningSetIndex>
+        <EngravingDirection Description="Top down">0</EngravingDirection>
+      </MaterialParameter>
+      <MaterialParameter Index="14" ColorIndex="14" Name="14" Color="26367" Enabled="false">
+        <Info></Info>
+        <ProcessKind Description="Skip">3</ProcessKind>
+        <Power>95.00000</Power>
+        <Frequency>1000.00000</Frequency>
+        <FrequencyUnit Unit="---">3</FrequencyUnit>
+        <AutoFrequency>false</AutoFrequency>
+        <MarkSpeed>1.00000</MarkSpeed>
+        <Passes>1</Passes>
+        <AirAssist Description="On">1</AirAssist>
+        <ZOffset>0.00000</ZOffset>
+        <Correction>10.00000</Correction>
+        <Links>false</Links>
+        <IntelligentPathControl Description="Off">0</IntelligentPathControl>
+        <HighQuality>false</HighQuality>
+        <RasterCorrection>false</RasterCorrection>
+        <JcCut_Visible>false</JcCut_Visible>
+        <JcCut_LaserDiameter>0.10000</JcCut_LaserDiameter>
+        <JcCut_Orientation Description="Deactivated">0</JcCut_Orientation>
+        <JcCut_OnlyClosedPaths>false</JcCut_OnlyClosedPaths>
+        <PathPlanningSetIndex>0</PathPlanningSetIndex>
+        <EngravingDirection Description="Top down">0</EngravingDirection>
+      </MaterialParameter>
+      <MaterialParameter Index="15" ColorIndex="15" Name="15" Color="65535" Enabled="false">
+        <Info></Info>
+        <ProcessKind Description="Positioning">10</ProcessKind>
+        <Power>100.00000</Power>
+        <Frequency>500.00000</Frequency>
+        <FrequencyUnit Unit="---">3</FrequencyUnit>
+        <AutoFrequency>false</AutoFrequency>
+        <MarkSpeed>1.00000</MarkSpeed>
+        <Passes>1</Passes>
+        <AirAssist Description="Off">0</AirAssist>
+        <ZOffset>0.00000</ZOffset>
+        <Correction>10.00000</Correction>
+        <Links>false</Links>
+        <IntelligentPathControl Description="Off">0</IntelligentPathControl>
+        <HighQuality>false</HighQuality>
+        <RasterCorrection>false</RasterCorrection>
+        <JcCut_Visible>false</JcCut_Visible>
+        <JcCut_LaserDiameter>0.10000</JcCut_LaserDiameter>
+        <JcCut_Orientation Description="Deactivated">0</JcCut_Orientation>
+        <JcCut_OnlyClosedPaths>false</JcCut_OnlyClosedPaths>
+        <PathPlanningSetIndex>0</PathPlanningSetIndex>
+        <EngravingDirection Description="Top down">0</EngravingDirection>
+      </MaterialParameter>
+    </Material>
+  </Materials>
+</MaterialDatabase>
