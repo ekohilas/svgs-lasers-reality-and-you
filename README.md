@@ -8,7 +8,7 @@ Resources on the card presented can be found [here](https://github.com/ekohilas/
 
 | Conference | Slides | Video | Notes | Length | Year |
 |------------|:-----:|:-----:|:-----:|-------:|-----:|
-| [North Bay Python](https://2023.northbaypython.org/) | [🔗](https://www.canva.com/design/DAFpFMEHN-M/2eTmMuJvUc0Nv2QCK7Md-g/view)  | [🔗](https://youtu.be/XQZAeP_Loyg) | [🔗](https://pretalx.northbaypython.org/nbpy-2023/talk/XB7UTZ/) | 25 min | 2023 |
+| [North Bay Python](https://2023.northbaypython.org/) | [🔗](https://www.canva.com/design/DAF1OgfPC6s/54eJLnF9mqdzigKHOnHNeA/view)  | [🔗](https://youtu.be/XQZAeP_Loyg) | [🔗](https://pretalx.northbaypython.org/nbpy-2023/talk/XB7UTZ/) | 25 min | 2023 |
 
 ## Description
 Recently, I embarked on an adventure to design and laser cut a card for my wallet.
