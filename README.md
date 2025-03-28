@@ -1,6 +1,6 @@
 # SVGs, Lasers, Reality, and You
 
-A repo for the resources of the talk, including the wooden NBPY token.
+A [repo](https://github.com/ekohilas/svgs-lasers-reality-and-you) for the resources of the talk, including the wooden NBPY token.
 
 Resources on the card presented can be found [here](https://github.com/ekohilas/card-resources)
 
